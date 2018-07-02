@@ -1,0 +1,2 @@
+.container{width:1100px;margin:auto}@media (max-width: 1200px){.container{width:700px}}@media (max-width: 768px){.container{width:500px}.container ul#exo1{height:auto}}h1{text-align:center;margin-top:40px}ul{margin:10px auto}ul:not(.enonce){width:95%;height:60px;background-color:orange}ul:not(.enonce)>li{background-color:purple;margin:2px}ul:not(.enonce)>li a{background-color:aqua}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,105 @@
+header{ position: relative
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+#number1{
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    height: 20px;
+    position: relative;
+    
+
+
+}
+#logo img {
+
+    height: 30px;
+    width: 30px;
+    border-right: 1px solid black;
+    position:absolute;top:5px;
+    position: absolute;left: 5px;
+    
+}
+
+nav ul li a{display: inline-block;
+    
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px;
+    
+}
+
+nav ul li lien7{
+    border-left: 1px solid black;
+
+}
+
+
+}
+.button{
+     background-color: green;
+}
+
+
+}
+button{ background-color: green;
+    border: 15px;
+    border-radius: 6px;
+    font-size: 16px;
+
+}
+span{ color: azure;
+
+}
+nav ul{ text-align: center;
+    list-style: none;
+display: inline;
+margin-left: 500px;
+border-bottom: 1px solid black;
+}
+
+nav{
+    border-bottom: 1px solid black;
+    text
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+height: 200px;
+}
+ul li{
+    line-height: 30px;
+}
+
+footer li{
+    color:white;
+}
+#social{
+    color: aliceblue;
+    text-align: center;
+    display: block;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black
+}

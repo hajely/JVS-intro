@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+  <section class="container">
+    <h1>exo1 pas à pas</h1>
+    <ul class="enonce">
+      <li>vous devez inspecter l'exercice avec la console google, comprendre pourquoi les li dépassent (par le bas) et pourquoi ils prennet toute la largeur sur la droite mais pas sur la gauche.</li>
+      <li>faites en sorte que les éléments soient collés sur la gauche et enlevez leurs puces (pas besoin de flex).</li>
+      <li>ajoutez un display flex au <b>parent</b> des éléments et remarquez le comportement des éléments. (Ils <b>s'alignent</b> horizontalement et ils prennent <b>toute la place possible en hauteur</b> par rapport à leur parent qui les met en flex.)</li>
+      <li>mettre un flex de 1 aux éléments pour voir qu'ils se répartissent l'espace disponnible.</li>
+      <li>mettre un flex de 3 sur le premier élément. </li>
+      <li>centrez le texte de chaque élément horizontalement (pas besoin de flexbox pour ça)</li>
+      <li>centrez le texte de chaque élément verticalemnet (en hauteur) avec <b>align-item center</b>. Cette propriété de flexbox est très utile, c'est pas toujours facile de centrer des éléments en hauteur... (observez que cette fois les éléments flexs ne prennent plus toute la hauteur possible.)</li>
+      <li>si on veut que la zone de l'élément soit cliquable comme c'est souvent le cas dans une navbar il faut agrandir la balise a (celle en couleur aqua). Pour ça faites lui prendre une largeur de 100% puis mettez un padding en y de 10px</li>
+      <li>Pour finir, on va mettre les éléments en colonne (flex-direction sur le parent) lorsqu'on passe sur un écran étroit (comme celui d'un gsm). Pour ça on va utiliser les média queries. Vous pouvez copier <b>@media (max-width: 768px)</b> dans votre sass. Tout le css mis dans ce media queries ne sera appliqué que lorsque l'écran se trouve en dessous de 768px. à vous de modifier la largeur de votre fenêtre pour voir le résultat.
+</b></li>
+    </ul>
+    <ul id="exo1">
+      <li>element1</li>
+      <li>element2</li>
+      <li>element3</li>
+      <li>element4</li>
+      <li><a href="">element5</a></li>
+    </ul>
+</body>
+</html>

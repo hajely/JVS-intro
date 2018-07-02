@@ -1,0 +1,12 @@
+creer un nouveau projet 
+creer un repository git en ligne sur github 
+initialiser projet git 
+creer votre structure de dossier (html, dossier, jvs)
+initialiser votre console google chrome dans votre projet sur visual studio 
+configurez le fichier lauch.jason pour pouvoir lancer la page index.html et utiliser la console chrome
+dans fichier html lier le fichier js
+creer des perso 
+    - guerrier (propriété : nom, age, taille, force, puissance, arme)
+propriété à utiliser: -lenght
+                    -   charATt()
+                    -methode qui permet de choisir un certain nbr de caractère dans une chaine en choisissanr l'index de départ et l'index de fin
